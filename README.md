@@ -2,7 +2,7 @@
 
 We've supported lookup editors for reference properties Batch Edit List Views. Starting with v19.2, the code-based solution described in the <a href="https://docs.devexpress.com/eXpressAppFramework/115835/task-based-help/list-editors/how-to-edit-a-reference-property-in-the-batch-edit-mode">How to: Edit a Reference Property in the Batch Edit Mode</a> topic is not required. Lookup editors are shown out of the box.
 
-The demo provides four navigation items:
+The demo project from this repository provides the following navigation items.
 
 ## Lookup editor for reference properties
 
