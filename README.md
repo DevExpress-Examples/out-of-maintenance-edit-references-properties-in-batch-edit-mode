@@ -10,7 +10,7 @@ This item illustrates a simple lookup.
 
 ![SimpleDemo](Images/SimpleDemo.gif)
 
-## The ImmediatePostData attribute:
+## Using the ImmediatePostData attribute in Batch Edit mode:
 
 This item illustrates how the [ImmediatePostData](https://docs.devexpress.com/eXpressAppFramework/DevExpress.Persistent.Base.ImmediatePostDataAttribute) attribute works in Batch Edit lookups. The ListView's calculated properties (FullName, BooleanPropertyAsString, SquaredNumberProperty) are updated immediately after changing the lookup property.
 
@@ -22,7 +22,7 @@ The item illustrates how [Cascading Filtering for Lookup List Views](https://doc
 
 ![Cascade](Images/Cascade.gif)
 
-## Large Data Source:
+## Performance with Large Data Sources:
 This item shows how the lookup editor handles large data sources. The demonstrated lookup has 100000 rows, and [Server mode](https://docs.devexpress.com/eXpressAppFramework/113683/Concepts/UI-Construction/Views/List-View-Data-Access-Modes) is enabled in its model.
 
 ![LargeDataDemo](Images/LargeDataDemo.gif)
