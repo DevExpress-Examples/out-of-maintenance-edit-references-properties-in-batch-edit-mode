@@ -4,7 +4,7 @@ We've supported lookup editors for reference properties Batch Edit List Views. S
 
 The demo provides four navigation items:
 
-## Lookup editor for reference property:
+## Lookup editor for reference properties:
 
 This item illustrates a simple lookup.
 
