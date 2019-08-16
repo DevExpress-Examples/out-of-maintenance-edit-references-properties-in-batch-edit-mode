@@ -1,28 +1,28 @@
-# Support reference properties in ASPxGridView's Batch Edit mode - Early Access Preview v19.2
+# Reference properties in ASPxGridView's Batch Edit mode - Early Access Preview v19.2
 
-We've supported reference properties in ASPxGridView's Batch Edit mode without custom code since v19.2. This demo demostrates the new functionality.
+We've supported lookup editors for reference properties Batch Edit List Views. Starting with v19.2, the code-based solution described in the <a href="https://docs.devexpress.com/eXpressAppFramework/115835/task-based-help/list-editors/how-to-edit-a-reference-property-in-the-batch-edit-mode">How to: Edit a Reference Property in the Batch Edit Mode</a> topic is not required. Lookup editors are shown out of the box.
 
-There are four navigation items:
+The demo provides four navigation items:
 
 ## SimpleDemo:
 
-This demo illustrates simple lookup property in ASPxGridView's Batch Edit mode
+This item illustrates a simple lookup.
 
 ![SimpleDemo](Images/SimpleDemo.gif)
 
 ## ImmediatePostData:
 
-The [ImmediatePostData](https://docs.devexpress.com/eXpressAppFramework/DevExpress.Persistent.Base.ImmediatePostDataAttribute) attribute is supported in the Batch Edit mode. This demo shows immediately update calculated properties (FullName, BooleanPropertyAsString, SquaredNumberProperty) after changing the primary properties.
+This item illustrates how the [ImmediatePostData](https://docs.devexpress.com/eXpressAppFramework/DevExpress.Persistent.Base.ImmediatePostDataAttribute) attribute works in Batch Edit lookups. The ListView's calculated properties (FullName, BooleanPropertyAsString, SquaredNumberProperty) are updated immediately after changing the lookup property.
 
 ![ImmediatePostData](Images/ImmediatePostData.gif)
 
 ## Cascade:
 
-The [Cascading Filtering for Lookup List Views](https://docs.devexpress.com/eXpressAppFramework/112681/Task-Based-Help/Filtering/How-to-Implement-Cascading-Filtering-for-Lookup-List-Views) is supported. This demo illustrates cascade properties: Country and City. The City lookup is dynamically populated with city names based on the value selected in the Country lookup.
+The item illustrates how [Cascading Filtering for Lookup List Views](https://docs.devexpress.com/eXpressAppFramework/112681/Task-Based-Help/Filtering/How-to-Implement-Cascading-Filtering-for-Lookup-List-Views) works in Batch Edit mode. The ListView has two lookup properties: Country and City. The City lookup items are populated based on the value selected in the Country lookup.
 
 ![Cascade](Images/Cascade.gif)
 
 ## LargeDataDemo:
-This demo shows the performance of ASPxGridView with the lookup contains 100000 rows. [The Server mode](https://docs.devexpress.com/eXpressAppFramework/113683/Concepts/UI-Construction/Views/List-View-Data-Access-Modes) is enabled for the Lookup ListView.
+This item shows how the lookup editor handles large data sources. The demonstrated lookup has 100000 rows, and [Server mode](https://docs.devexpress.com/eXpressAppFramework/113683/Concepts/UI-Construction/Views/List-View-Data-Access-Modes) is enabled in its model.
 
 ![LargeDataDemo](Images/LargeDataDemo.gif)
