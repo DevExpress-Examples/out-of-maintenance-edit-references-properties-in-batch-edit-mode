@@ -1,8 +1,10 @@
-# Reference properties in ASPxGridView's Batch Edit mode - Early Access Preview v19.2
-
-You can display lookup editors for reference properties Batch Edit List Views. If you are using v19.2 or higher, the code-based solution described in <a href="https://docs.devexpress.com/eXpressAppFramework/115835/task-based-help/list-editors/how-to-edit-a-reference-property-in-the-batch-edit-mode">How to: Edit a Reference Property in the Batch Edit Mode</a> is no longer required. Lookup editors are shown automatically.
-
-The demo project from this repository provides the following navigation items.
+# Reference properties and ImmediatePostData in ASPxGridView's Batch Edit mode - Early Access Preview v19.2
+ 
+The following features are now supported in List View Batch Edit mode:
+- Built-in lookup editors for reference properties. The code-based solution from <a href="https://docs.devexpress.com/eXpressAppFramework/115835/task-based-help/list-editors/how-to-edit-a-reference-property-in-the-batch-edit-mode">How to: Edit a Reference Property in the Batch Edit Mode</a> is no longer required;
+- ImmediatePostData works in cell editors.
+ 
+The demo project from this repository provides several navigation items demonstrating these improvements.
 
 ## Lookup editor for reference properties
 
@@ -12,7 +14,7 @@ This item illustrates a simple lookup.
 
 ## ImmediatePostData attribute in Batch Edit mode
 
-This item illustrates how the [ImmediatePostData](https://docs.devexpress.com/eXpressAppFramework/DevExpress.Persistent.Base.ImmediatePostDataAttribute) attribute works in Batch Edit lookups. The ListView's calculated properties (FullName, BooleanPropertyAsString, SquaredNumberProperty) are updated immediately after changing the lookup property.
+This item illustrates how the [ImmediatePostData](https://docs.devexpress.com/eXpressAppFramework/DevExpress.Persistent.Base.ImmediatePostDataAttribute) attribute works in Batch Edit mode. ListView's calculated properties (FullName, BooleanPropertyAsString, SquaredNumberProperty) are updated immediately after changing values of other cells.
 
 ![ImmediatePostData](Images/ImmediatePostData.gif)
 
@@ -23,6 +25,6 @@ The item illustrates how to use [Cascade Filtering for Lookup List Views](https:
 ![Cascade](Images/Cascade.gif)
 
 ## Performance on Large Data Sources
-This item shows how the lookup editor handles large data sources. The demonstrated lookup has 100,000 rows and [Server mode](https://docs.devexpress.com/eXpressAppFramework/113683/Concepts/UI-Construction/Views/List-View-Data-Access-Modes) is enabled in its model.
+This item shows how the lookup editor handles large data sources. The demonstrated lookup has 100,000 rows and [Server mode](https://docs.devexpress.com/eXpressAppFramework/113683/Concepts/UI-Construction/Views/List-View-Data-Access-Modes) enabled in its model. This feature is available only in Batch Edit mode.
 
 ![LargeDataDemo](Images/LargeDataDemo.gif)
