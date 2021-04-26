@@ -1,9 +1,10 @@
-# Reference properties and ImmediatePostData in ASPxGridView's Batch Edit mode
- 
-The following features are now supported in List View Batch Edit mode:
-- Built-in lookup editors for reference properties. The code-based solution from <a href="https://docs.devexpress.com/eXpressAppFramework/115835/task-based-help/list-editors/how-to-edit-a-reference-property-in-the-batch-edit-mode">How to: Edit a Reference Property in the Batch Edit Mode</a> is no longer required;
-- ImmediatePostData works in cell editors.
 
+# OBSOLETE: In v19.2+, the List View's Batch Edit mode supports built-in lookup editors for reference properties. The custom code from this example is no longer required.
+
+
+===========
+
+# Reference properties and ImmediatePostData in ASPxGridView's Batch Edit mode
 
 The demo project from this repository provides several navigation items demonstrating these improvements.
 
